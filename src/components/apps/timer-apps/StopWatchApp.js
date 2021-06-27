@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 const StopWatch = () => {
 
-    const startTimeRef = useState(0);
+    const startTimeRef = useRef(0);
     const [isRunning, setIsRunning] = useState(false);
     const [time, setTime] = useState(0);
     const [laps, setLaps] = useState([]);
