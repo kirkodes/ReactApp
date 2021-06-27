@@ -1,9 +1,8 @@
 /* body */
 body {
   padding: 15px;
-  /* background-color: white; */
+  background-color: white;
   font: Belleza;
-  color: red;
 }
 
 /* footer */
@@ -20,7 +19,7 @@ footer p {
 
 /* main */
 .main {
-  background-color: white;
+  background-color: rgb(178, 206, 199);
   color: black;
   height: 100%;
   min-height: 100%;

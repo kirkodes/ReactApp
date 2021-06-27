@@ -9,7 +9,7 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById('root')
-);
+); // ^^ element by id root, is referencing index.html where everything is being funneled through
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
